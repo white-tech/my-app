@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+
+}
+.head1{
+    display: flex;
+    background-color: rgb(223, 112, 102);
+    height: 100px;
+    width: auto;
+    padding-top: 85px;
+    padding-left: 150px;
+    justify-content: space-between;
+
+}
+#logo{
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     border: 3px solid rgb(223, 112, 102);
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+   color: rgb(7, 5, 107);
+   text-align: center; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background-color: rgb(214, 121, 121);
+    height: 200px;
+}
+.container{
+    margin-top: 200px ;
+    height: 300px;
+    width: auto;
+}
+.container1{
+    display: flex;
+}
+.container2,
+.container3{
+    height: 400px;
+    width: 300px;
+    
+}
+.right{
+    height: 200px;
+    width: 400px;
+}
+button{
+    background-color: gold;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 510px;
+}
+.gallary{
+    margin-left:5pc;
+    background-color: none;
+    display: flexbox;
+    width: 100pc;
+}
+.pic{
+    height: 400px;
+    width: 30pc;
+    border: solid blue;
+    box-shadow: white;
+    break-after: left;
+    border-radius: 50%;
+}
+.btn btn-primary btn-lg{
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+p{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+    justify-content: space-around;
+    
+}
+nav{
+    padding-left: 480px;
+    padding-top: 20px;
+    height: 50px;
+    width: auto;
+    background-color: gold;
+}
